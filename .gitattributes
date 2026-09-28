@@ -1,0 +1,9 @@
+# Normalize line endings for code; keep weight dumps out of archives.
+*.cc text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+
+# Belt & braces: never ship the (already gitignored) weight dumps via git archive.
+weights/ export-ignore

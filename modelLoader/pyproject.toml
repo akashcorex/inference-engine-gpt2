@@ -1,7 +1,7 @@
 [project]
 name = "modelloader"
 version = "0.1.0"
-description = "Add your description here"
+description = "Export Hugging Face GPT-2 weights + tokenizer to plain text dumps"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
