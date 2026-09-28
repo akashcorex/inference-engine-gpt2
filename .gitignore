@@ -1,0 +1,18 @@
+# Model weights — huge (~1.4G), downloadable via modelLoader/main.py
+# Anyone can regenerate with: cd modelLoader && uv run main.py
+/weights/
+weights/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+modelLoader/.venv/
+venv/
+.env
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
