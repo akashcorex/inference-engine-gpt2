@@ -55,6 +55,7 @@ Defaults: temperature `0.8`, top-k `40`.
 ## Notes
 
 - Weight files under `weights/*.txt` are large (~1.4 GB) and ignored by git; regenerate them locally with `modelLoader/main.py`.
+- `weights/tokenizer/` (small, ~3.4 MB) **is** tracked, so clones work without re-downloading the tokenizer.
 - Paths in the C++ loader are relative to `inference/` (`../weights/...`).
 
 ## License
